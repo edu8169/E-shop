@@ -5,3 +5,11 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+let carrito = [];
+let total = 0;
+const DOMitems = document.querySelector('#items');
+const DOMcarrito = document.querySelector('#carrito');
+const DOMtotal = document.querySelector('#total');
+const DOMbotonVaciar = document.querySelector('#boton-vaciar');
+const miLocalStorage = window.localStorage;
